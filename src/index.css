@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+   font-family: "kollektif";
+   src: local("Kollektif"),
+    url("./assets/Kollektif.ttf") format("truetype");
+   font-weight: bold;
+   }
+
+   @font-face {
+      font-family: "BabyAngel";
+      src: local("BabyAngel"),
+       url("./assets/BabyAngel.otf") format("opentype");
+      font-weight: bold;
+      }
+
+   * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      scroll-behavior: smooth;
+    }
+    
+
+
+    

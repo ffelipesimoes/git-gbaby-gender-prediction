@@ -1,0 +1,65 @@
+{
+  "name": "Bolao-Revelacao",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "axios": "^0.27.2",
+    "ethers": "^5.6.2",
+    "framer-motion": "^6.2.8",
+    "hardhat": "^2.10.2",
+    "i18next": "^21.8.10",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-http-backend": "^1.4.1",
+    "react": "^18.0.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.0.0",
+    "react-i18next": "^11.17.2",
+    "react-icons": "^4.3.1",
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.3",
+    "web3modal": "^1.9.8"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "autoprefixer": "^10.4.4",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "postcss": "^8.4.12",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.0.23",
+    "url": "^0.11.0"
+  }
+}
